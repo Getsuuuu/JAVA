@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
 
 public class Zapis{
     public void zapis(String nazwa) throws IOException {
@@ -10,5 +10,7 @@ public class Zapis{
         zapis.write(tekst);
         zapis.close();
         System.out.println("Udało się zapisać do pliku");
+        // id autor kategoria status nazwa
+        // id i nazwa
     }
 }
